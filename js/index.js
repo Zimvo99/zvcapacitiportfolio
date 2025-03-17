@@ -91,37 +91,37 @@ const projects = [
   {
     name: "Mobile Travel App",
     description: "Travel, Discovery",
-    imgUrl: "img/assets/work/work-1.jpg",
+    imgUrl: "img/assets/work-1.jpg",
     category: "apps",
   },
   {
     name: "Music App",
     description: "Music",
-    imgUrl: "img/assets/work/work-2.jpg",
+    imgUrl: "img/assets/work-2.jpg",
     category: "apps",
   },
   {
     name: "Gaming Dashboard",
     description: "Games, Streaming",
-    imgUrl: "img/assets/work/work-3.jpg",
+    imgUrl: "img/assets/work-3.jpg",
     category: "website",
   },
   {
     name: "Drugs Delivery App",
     description: "Health, Drugs",
-    imgUrl: "img/assets/work/work-4.jpg",
+    imgUrl: "img/assets/work-4.jpg",
     category: "website",
   },
   {
     name: "Musics Discover",
     description: "Music, Dashboard",
-    imgUrl: "img/assets/work/work-5.jpg",
+    imgUrl: "img/assets/work-5.jpg",
     category: "apps",
   },
   {
     name: "Game Streaming",
     description: "Games, Streaming",
-    imgUrl: "img/assets/work/work-6.jpg",
+    imgUrl: "img/assets/work-6.jpg",
     category: "apps",
   },
 ];
