@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zimvo | Portfolio</title>
+    <!--Main css-->
+    <link rel="stylesheet" href="../css/main.css" />
+    <!--Font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+  </head>
+  <body>
+    <!-- Back to top button -->
+    <div class="btn-to-top">
+      <span class="icon-arrow-up"><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+    <!-- Navbar -->
+    <div class="vg-page page-home pg" id="home">
+      <div class="navbar-container fixed">
+        <div class="container flex">
+          <a href="" class="brand-logo">Z-Mbimbi</a>
+          <div class="menu-collapse" id="main-navbar">
+            <ul class="nav-items ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link" data-animate="scrolling"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link" data-animate="scrolling"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a
+                  href="projects.html"
+                  class="nav-link"
+                  data-animate="scrolling"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link" data-animate="scrolling"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vg-page portfolio-section section-wrapper" id="portfolio">
+      <div class="container theme-red">
+        <!-- Overlay -->
+        <div id="overlay" class="overlay">
+          <div class="overlay-content">
+            <p>
+              Coming Soon: This project is currently under construction. Stay
+              tuned for updates!
+            </p>
+            <a href="#" id="closeOverlay" class="btn-theme">Close</a>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <div class="subhead-badge">Portfolio</div>
+        </div>
+        <h1 class="text-center portfolio-head">See my work</h1>
+
+        <div class="filter-buttons">
+          <button class="button-outline selected" data-filter="*">All</button>
+          <button class="button-outline" data-filter=".apps">Apps</button>
+          <button class="button-outline" data-filter=".website">Website</button>
+        </div>
+
+        <div class="portfolio-grid"></div>
+      </div>
+    </div>
+
+    <!-- End Portfolio page -->
+    <!-- Contact -->
+    <div class="vg-page page-contact" id="contact">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="badge subhead-badge">Contact</div>
+        </div>
+        <h1 class="text-center portfolio-head">Get in touch</h1>
+        <!-- End Contact -->
+        <div class="contact-me">
+          <div class="container">
+            <div class="contact-me-row">
+              <!-- Left Column -->
+              <div class="contact-left-column">
+                <div class="contact-detail-list">
+                  <!-- Address -->
+                  <div class="contact-detail">
+                    <div class="contact-detail-head">
+                      <span class="contact-icon">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                      </span>
+                      <span class="contact-detail-title">Address</span>
+                    </div>
+                    <address>
+                      25Ny 82 Gugulethu 7750
+                    </address>
+                  </div>
+
+                  <!-- Phone -->
+                  <div class="contact-detail">
+                    <div class="contact-detail-head">
+                      <span class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                      </span>
+                      <span class="contact-detail-title">Phone</span>
+                    </div>
+                    <p>
+                      <a href="tel:+7731461407">+7782936311</a>
+                    </p>
+                  </div>
+
+                  <!-- Email -->
+                  <div class="contact-detail">
+                    <div class="contact-detail-head">
+                      <span class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <span class="contact-detail-title">Email</span>
+                    </div>
+                    <p>
+                      <a href="mailto:contact@example.com"
+                        >zimvombimbi5@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right Column (To be filled later) -->
+              <div class="contact-right-column">
+                <h2 class="text-head">Contact Me</h2>
+                <form action="your_form_submission_url" method="POST">
+                  <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      required
+                      class="form-input"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      class="form-input"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="4"
+                      required
+                      class="form-input"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn-theme">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <!-- Footer -->
+   <div class="vg-footer">
+    <h1 class="text-center">Mbimbi Zimvo</h1>
+    <div class="container">
+      <div class="row">
+        <div class="footer-column">
+          <div class="footer-info">
+            <p>Where to find me</p>
+            <hr class="divider" />
+            <p class="fs-large fg-white">
+              <ion-icon name="location-outline"></ion-icon>
+              25Ny 82 Gugulethu 7750
+            </p>
+          </div>
+        </div>
+        <div class="footer-column py-3">
+          <div class="float-right">
+            <p>Follow me</p>
+            <hr class="divider" />
+            <ul class="footer-list">
+              <li>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <a href="https://www.instagram.com/zimvo_mbimbi?igsh=dmlraTQ5NWZmcDll&utm_source=qr">Instagram</a>
+              </li>
+              <li>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <a href="https://www.Facebook.com/zimvo_mbimbi?igsh=dmlraTQ5NWZmcDll&utm_source=qr">Facebook</a>
+              </li>
+              <li>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <a href="https://x.com/mbimbizimv91282?s=21">Twitter</a>
+              </li>
+              <li>
+                <ion-icon name="logo-LinkedIn"></ion-icon>
+                <a href="https://www.linkedin.com/public-profile/settings">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-column py-3">
+          <div class="float-right">
+            <p>Contact me</p>
+            <hr class="divider" />
+            <ul class="footer-list">
+              <li>
+                <ion-icon name="mail-outline"></ion-icon> zimvombimbi5@gmail.com
+              </li>
+              <li><ion-icon name="call-outline"></ion-icon> +27731461407</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12">
+          <p class="text-center mb-0 mt-4">
+            Copyright &copy; 2024. zimvo_mbimbi
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- End footer -->
+    <script src="../js/index.js" defer></script>
+  </body>
+</html>
